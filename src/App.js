@@ -1,5 +1,11 @@
-import React from 'react';
+import React from 'react'
 import './App.css';
+
+import AppComponent from './map.js';
+
+//const appId = 'BWnU5bq4LjZbHTokK91Q';
+const apiKey = '5YgYB1Se3gtaza3y7W3Q6Tm1gyEjRfZUHlac1QaYK4g';
+
 
 function App() {
 
@@ -11,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      Hello world
+      <AppComponent />
     </div>
   );
 }
